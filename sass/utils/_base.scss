@@ -1,0 +1,32 @@
+.list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.body {
+    color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0px;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-flex {
+    display: flex;
+    justify-content: space-between;
+}

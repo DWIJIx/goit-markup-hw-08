@@ -1,0 +1,25 @@
+.logo {
+    display: inline-block;
+    text-decoration: none;
+    font-family: raleway, sens-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    &__web {
+        color: var(--accent-color);
+    }
+
+    &__studio {
+        color: var(--primary-text-color);
+    }
+
+    &__footer {
+        margin-bottom: 20px;
+    }
+
+    &__studio--inverse {
+        color: var(--secondary-accent-color);
+    }
+}
+
