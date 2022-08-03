@@ -1,24 +1,50 @@
 .portfolio-section {
     background-color: #FFF;
-    padding-top: 94px;
+    padding-top: 52px;
     padding-bottom: 94px;
+
+    @media screen and (min-width: 1200px) {
+            padding-top: 86px;
+    
+        }
     
     &__filter-list {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
+
+        @media screen and (min-width: 1200px) {
+            margin-bottom: 50px;
+        }
     }
 }
 
 .filter-list {
     display: flex;
-    justify-content: center;
-
+    flex-wrap: wrap;
+    
+    @media screen and (min-width: 768px) {
+        justify-content: center;
+        }
+    
     &__item {
         margin-right: 8px;
+        margin-top: 8px;
     }
-    
+        
     &__item:last-child {
         margin-right: 0px;
     }
+    
+    &__item:nth-child(3) {
+        margin-right: 30px;
+        
+        @media screen and (min-width: 768px) {
+        margin-right: 8px;
+        }
+    
+    }
+
+
+   
     
     &__button {
         display: inline-block;
