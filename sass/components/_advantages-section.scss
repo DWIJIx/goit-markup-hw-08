@@ -1,8 +1,9 @@
 .advantages {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--primary-bg-color);
-   
+    
+    
     
     &__item {
         max-width: 450px;
@@ -10,13 +11,13 @@
         margin-right: auto;
 
         @media screen and (min-width: 768px) {
-            width: 354px;
-        
-            }
+            margin: 15px;
+            width: calc((100% - 4 * 15px)/2);
+        }
+
         @media screen and (min-width: 1200px) {
             width: 270px;
-    
-         }
+        }
 
 
     }
@@ -42,7 +43,6 @@
         
         @media screen and (min-width: 768px) {
             text-align: left;
-
         }
     }
 
@@ -52,7 +52,11 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
-  
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+    }
     }
 
 }
