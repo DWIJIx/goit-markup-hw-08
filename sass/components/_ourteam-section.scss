@@ -16,8 +16,12 @@
 
 
 .cards {
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+    }
     
     &__item {
         background-color: #fff;
@@ -34,6 +38,8 @@
 
     &__img {
         display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     &__name {

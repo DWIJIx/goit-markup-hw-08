@@ -13,6 +13,13 @@
 
 .header-menu {
     
+    display: none;
+
+    @media screen and (min-width: 768px) {
+            display: block;
+          
+        }
+
     &__list {
         display: flex;
         margin-left: 93px;
@@ -60,12 +67,17 @@
 }
 
 .header-contacts {
-    display: flex;
+    display: none;
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 0px;
     margin-left: auto;
-    align-items: center;
+    
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+    }
 
     &__item {
         margin-right: 30px;
