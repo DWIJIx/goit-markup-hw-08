@@ -70,9 +70,9 @@
     margin-bottom: 60px;
 
     @media screen and (min-width: 1200px) {
-            margin-right: 4px;
-            margin-bottom: 0px;
-        }
+        margin-right: 4px;
+        margin-bottom: 0px;
+    }
     
 
 
@@ -110,9 +110,8 @@
         align-items: center;
 
         @media screen and (min-width: 1200px) {
-                flex-direction: row;
-                
-            }
+            flex-direction: row;
+        }
     }
 
     &__input {
@@ -127,15 +126,14 @@
         margin-bottom: 20px;
 
         @media screen and (min-width: 768px) {
-            width: 450px;
-               
+            width: 450px;   
         }
+
         @media screen and (min-width: 1200px) {
             margin: 0px 12px 0px 0px;
             width: 358px;
             margin-bottom: 0px;
-        }
-        
+        }    
     }
 
     &__input::placeholder {
