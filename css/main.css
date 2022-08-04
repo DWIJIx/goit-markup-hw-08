@@ -330,10 +330,10 @@ p {
   margin-left: auto;
 }
 .mobile-contacts__item {
-  margin-right: 30px;
+  margin-bottom: 32px;
 }
 .mobile-contacts__item:last-child {
-  margin-right: 0px;
+  margin-bottom: 64px;
 }
 .mobile-contacts__link {
   color: var(--secondary-text-color);

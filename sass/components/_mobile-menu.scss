@@ -20,12 +20,7 @@
 }
 
 .mobile-menu {
- 
-    
-    &__list {
-        
-    }
-
+     
     &__item {
         margin-bottom: 32px;
     }
@@ -64,11 +59,11 @@
     margin-left: auto;
 
    &__item {
-        margin-right: 30px;
+        margin-bottom: 32px;
     }
 
     &__item:last-child {
-        margin-right: 0px;
+        margin-bottom: 64px;
     }
 
     &__link {
