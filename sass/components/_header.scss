@@ -1,20 +1,52 @@
 .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
+    position: relative;
+    padding-top: 16px;
+    padding-bottom: 16px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #ececec;
+    
+    @media screen and (min-width: 768px) {
+        padding-top: 24px;
+        padding-bottom: 25px;
+    
+    }
+    @media screen and (min-width: 1200px) {
+        padding-top: 24px;
+        padding-bottom: 25px;
+
+    }
 }
 
 .header-flex {
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 767px) {
+        justify-content: space-between;
+    }
+    
+}
+.menu-toggle {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    
+    @media screen and (min-width: 768px) {
+        display: none;
+    
+    }
+
 }
 
 .header-menu {
     
-    display: none;
-
+    @media screen and (max-width: 767px) {
+            display: none;
+        }
+        
     @media screen and (min-width: 768px) {
             display: block;
           
@@ -67,15 +99,25 @@
 }
 
 .header-contacts {
-    display: none;
+    
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 0px;
     margin-left: auto;
     
+    @media screen and (max-width: 767px) {
+            display: none;
+    }
 
     @media screen and (min-width: 768px) {
         display: flex;
+        flex-direction: column;
+        
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-direction: row;
         align-items: center;
     }
 
