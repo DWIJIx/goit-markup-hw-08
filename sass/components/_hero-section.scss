@@ -65,7 +65,7 @@
                             rgba(47, 48, 58, 0.4),
                             rgba(47, 48, 58, 0.4)),
                         url(../images/bgi/bgi1600@2x.jpg);
-                }
+        }
 
         @media screen and (min-width: 1200px) {
             height: 600px;
@@ -75,9 +75,6 @@
                 
     }
     
-
-    
-
     &__title {
         color: var(--secondary-accent-color);
         font-weight: 900;
@@ -88,12 +85,12 @@
         margin-bottom: 30px;
         
  
-                 @media screen and (min-width: 1200px) {
-                    padding-left: 250px;
-                    padding-right: 250px;
-                    font-size: 44px;
-                    line-height: 1.36;
-                 }
+        @media screen and (min-width: 1200px) {
+            padding-left: 250px;
+            padding-right: 250px;
+            font-size: 44px;
+            line-height: 1.36;
+        }
 
         
     }
