@@ -120,17 +120,3 @@
         color: var(--accent-color)
     }
 }
-
-
-.mobile-close-button {
-    position:absolute;
-    top: -28px;
-    right: -22px;
-
-    &:hover .icon-cross ,
-    &:focus .icon-cross {
-        fill: var(--accent-color);
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-}
-

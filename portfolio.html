@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,9 +48,12 @@
                         +38 096 111 11 11</a>
                 </li>
             </ul>
-            <button class="menu-toggle js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
-                <svg width="40px" height="40px" aria-label="Перемикач мобільного меню">
-    
+            <button class="menu-toggle js-open-menu" 
+                type="button" 
+                aria-expanded="false" 
+                aria-controls="mobile-menu"
+            >
+                <svg width="24px" height="16px" aria-label="Перемикач мобільного меню">
                     <use class="icon-menu" href="./images/icons.svg#menu"></use>
                 </svg>
             </button>
@@ -72,12 +75,12 @@
                     <ul class="mobile-contacts list">
                         <li class="mobile-contacts__item">
                             <a href="mailto:info@devstudio.com" class="mobile-contacts__link">
-                                info@devstudio.com
+                                +38 096 111 11 11
                             </a>
                         </li>
                         <li class="mobile-contacts__item">
-                            <a href="tel:+380961111111" class="mobile-contacts__link mobile-contacts__tel">
-                                +38 096 111 11 11
+                            <a href="tel:+380961111111" class="mobile-contacts__link mobile-contacts__mail">
+                                info@devstudio.com
                             </a>
                         </li>
                     </ul>
@@ -95,10 +98,11 @@
                             <a class="mobile-social__link" href="">LinkedIn</a>
                         </li>
                     </ul>
-                    <button class="menu-toggle js-close-menu mobile-close-button" type="button">
-                        <svg width="40px" height="40px" aria-label="Перемикач мобільного меню">
+                    <button class="menu-toggle js-close-menu mobile-close-button" 
+                        type="button"
+                    >
+                        <svg width="19px" height="19px" aria-label="Перемикач мобільного меню">
                             <use class="icon-cross" href="./images/icons.svg#cross"></use>
-    
                         </svg>
                     </button>
                 </div>
@@ -106,6 +110,7 @@
         </div>
     
     </header>
+
     <main>
         <section class="portfolio-section">
             <div class="container">
@@ -131,7 +136,12 @@
                     <li class="portfolio-list__item">
                         <a class="portfolio-list__link" href="">
                            <div class="portfolio-list__div-img">
-                                <img class="portfolio-list__img" src="./images/port1.jpg" alt="Картинка веб-сайту Технокряк" width="370">
+                                <picture>
+                                    <source srcset="./images/portfolio/p1-370.jpg 1x, ./images/portfolio/p1-370@2x.jpg 2x" media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio/p1-354.jpg 1x, ./images/portfolio/p1-354@2x.jpg 2x" media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio/p1-450.jpg 1x, ./images/portfolio/p1-450@2x.jpg 2x" media="(max-width: 767px)">
+                                    <img class="portfolio-list__img" src="./images/portfolio/p1-450.jpg" alt="Картинка веб-сайту Технокряк">
+                                </picture>
                                 <div>
                                     <p class="portfolio-list__cards-hidden">
                                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -150,8 +160,13 @@
                     <li class="portfolio-list__item">
                         <a class="portfolio-list__link" href="">
                             <div class="portfolio-list__div-img">
-                                <img class="portfolio-list__img" src="./images/port2.jpg" alt="Картинка постера про дизайн" width="370">
-                                <div>
+                                <picture>
+                                    <source srcset="./images/portfolio/p2-370.jpg 1x, ./images/portfolio/p2-370@2x.jpg 2x" media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio/p2-354.jpg 1x, ./images/portfolio/p2-354@2x.jpg 2x" media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio/p2-450.jpg 1x, ./images/portfolio/p2-450@2x.jpg 2x" media="(max-width: 767px)">
+                                    <img class="portfolio-list__img" src="./images/portfolio/p2-450.jpg" alt="Картинка постера про дизайн">
+                                </picture>
+                                   <div>
                                     <p class="portfolio-list__cards-hidden">
                                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                                         вичерпні відомості про компанію чи приватну особу.
@@ -169,7 +184,13 @@
                     <li class="portfolio-list__item">
                         <a class="portfolio-list__link" href="">
                             <div class="portfolio-list__div-img">
-                                <img class="portfolio-list__img" src="./images/port3.jpg" alt="Картинка додатку ресторана" width="370">
+                                <picture>
+                                    <source srcset="./images/portfolio/p3-370.jpg 1x, ./images/portfolio/p3-370@2x.jpg 2x" media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio/p3-354.jpg 1x, ./images/portfolio/p3-354@2x.jpg 2x" media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio/p3-450.jpg 1x, ./images/portfolio/p3-450@2x.jpg 2x" media="(max-width: 767px)">
+                                    <img class="portfolio-list__img" src="./images/portfolio/p3-450.jpg" alt="Картинка додатку ресторана">
+                                </picture>
+                                
                                 <div>
                                     <p class="portfolio-list__cards-hidden">
                                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -187,7 +208,13 @@
                     <li class="portfolio-list__item">
                         <a class="portfolio-list__link" href="">
                             <div class="portfolio-list__div-img">
-                                <img class="portfolio-list__img" src="./images/port4.jpg" alt="Картинка проекта по маркетингу" width="370">
+                                <picture>
+                                    <source srcset="./images/portfolio/p4-370.jpg 1x, ./images/portfolio/p4-370@2x.jpg 2x" media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio/p4-354.jpg 1x, ./images/portfolio/p4-354@2x.jpg 2x" media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio/p4-450.jpg 1x, ./images/portfolio/p4-450@2x.jpg 2x" media="(max-width: 767px)">
+                                    <img class="portfolio-list__img" src="./images/portfolio/p4-450.jpg" alt="Картинка проекта по маркетингу">
+                                </picture>
+                                
                                 <div>
                                     <p class="portfolio-list__cards-hidden">
                                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -206,7 +233,13 @@
                     <li class="portfolio-list__item">
                         <a class="portfolio-list__link" href="">
                             <div class="portfolio-list__div-img">
-                                <img class="portfolio-list__img" src="./images/port5.jpg" alt="Картинка приложения Boxes" width="370">
+                                <picture>
+                                    <source srcset="./images/portfolio/p5-370.jpg 1x, ./images/portfolio/p5-370@2x.jpg 2x" media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio/p5-354.jpg 1x, ./images/portfolio/p5-354@2x.jpg 2x" media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio/p5-450.jpg 1x, ./images/portfolio/p5-450@2x.jpg 2x" media="(max-width: 767px)">
+                                    <img class="portfolio-list__img" src="./images/portfolio/p5-450.jpg" alt="Картинка приложения Boxes">
+                                </picture>
+                               
                                 <div>
                                     <p class="portfolio-list__cards-hidden">
                                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -224,7 +257,13 @@
                     <li class="portfolio-list__item">
                         <a class="portfolio-list__link" href="">
                            <div class="portfolio-list__div-img">
-                            <img class="portfolio-list__img" src="./images/port6.jpg" alt="Картинка веб-сайту" width="370">
+                            <picture>
+                                <source srcset="./images/portfolio/p6-370.jpg 1x, ./images/portfolio/p6-370@2x.jpg 2x" media="(min-width: 1200px)">
+                                <source srcset="./images/portfolio/p6-354.jpg 1x, ./images/portfolio/p6-354@2x.jpg 2x" media="(min-width: 768px)">
+                                <source srcset="./images/portfolio/p6-450.jpg 1x, ./images/portfolio/p6-450@2x.jpg 2x" media="(max-width: 767px)">
+                                <img class="portfolio-list__img" src="./images/portfolio/p6-450.jpg" alt="Картинка веб-сайту">
+                            </picture>
+                            
                             <div>
                                 <p class="portfolio-list__cards-hidden">
                                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -241,7 +280,13 @@
                     <li class="portfolio-list__item">
                         <a class="portfolio-list__link" href="">
                             <div class="portfolio-list__div-img">
-                                <img class="portfolio-list__img" src="./images/port7.jpg" alt="Картинка з дизайном" width="370">
+                                <picture>
+                                    <source srcset="./images/portfolio/p7-370.jpg 1x, ./images/portfolio/p7-370@2x.jpg 2x" media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio/p7-354.jpg 1x, ./images/portfolio/p7-354@2x.jpg 2x" media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio/p7-450.jpg 1x, ./images/portfolio/p7-450@2x.jpg 2x" media="(max-width: 767px)">
+                                    <img class="portfolio-list__img" src="./images/portfolio/p7-450.jpg" alt="Картинка з дизайном">
+                                </picture>
+                                
                                 <div>
                                     <p class="portfolio-list__cards-hidden">
                                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -259,7 +304,13 @@
                     <li class="portfolio-list__item">
                        <a class="portfolio-list__link" href="">
                         <div class="portfolio-list__div-img">
-                            <img class="portfolio-list__img" src="./images/port8.jpg" alt="Картинка проєкту по маркетингу" width="370">
+                            <picture>
+                                <source srcset="./images/portfolio/p8-370.jpg 1x, ./images/portfolio/p8-370@2x.jpg 2x" media="(min-width: 1200px)">
+                                <source srcset="./images/portfolio/p8-354.jpg 1x, ./images/portfolio/p8-354@2x.jpg 2x" media="(min-width: 768px)">
+                                <source srcset="./images/portfolio/p8-450.jpg 1x, ./images/portfolio/p8-450@2x.jpg 2x" media="(max-width: 767px)">
+                                <img class="portfolio-list__img" src="./images/portfolio/p8-450.jpg" alt="Картинка проєкту по маркетингу">
+                            </picture>
+                            
                             <div>
                                 <p class="portfolio-list__cards-hidden">
                                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -277,7 +328,13 @@
                     <li class="portfolio-list__item">
                         <a class="portfolio-list__link" href="">
                             <div class="portfolio-list__div-img">
-                                <img class="portfolio-list__img" src="./images/port9.jpg" alt="Картинка додатку Growing Business" width="370">
+                                <picture>
+                                    <source srcset="./images/portfolio/p9-370.jpg 1x, ./images/portfolio/p9-370@2x.jpg 2x" media="(min-width: 1200px)">
+                                    <source srcset="./images/portfolio/p9-354.jpg 1x, ./images/portfolio/p9-354@2x.jpg 2x" media="(min-width: 768px)">
+                                    <source srcset="./images/portfolio/p9-450.jpg 1x, ./images/portfolio/p9-450@2x.jpg 2x" media="(max-width: 767px)">
+                                    <img class="portfolio-list__img" src="./images/portfolio/p9-450" alt="Картинка додатку Growing Business">
+                                </picture>
+                                
                                 <div>
                                     <p class="portfolio-list__cards-hidden">
                                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -295,7 +352,8 @@
             </div>
         </section>
     </main>
-<footer class="footer">
+
+    <footer class="footer">
     <div class="container footer-flex">
         <div class="footer-logo-plus-adress">
             <div>
@@ -373,7 +431,7 @@
             </div>
         </form>
     </div>
-</footer>
+    </footer>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
     integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
     crossorigin="anonymous"></script>

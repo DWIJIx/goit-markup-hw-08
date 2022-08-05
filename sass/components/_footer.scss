@@ -13,9 +13,10 @@
     @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
-            align-items: baseline;
-            justify-content: center;
-        }
+        align-items: baseline;
+        justify-content: center;
+    }
+
     @media screen and (min-width: 1200px) {
         text-align: left;
         justify-content: space-between;
@@ -27,11 +28,12 @@
 
     @media screen and (min-width: 768px) {
             margin-right: 165px;
-        }
+    }
+
     @media screen and (min-width: 1200px) {
             margin-bottom: 0px;
             margin-right: 0px;
-        }
+    }
 }
 
 .footer-adress {
@@ -73,9 +75,6 @@
         margin-right: 4px;
         margin-bottom: 0px;
     }
-    
-
-
 
     &__title {
         margin-bottom: 20px;
