@@ -171,20 +171,20 @@
             <ul class="list main-flex">
                 <li>
                     <div class="eployment-cards">
-                        <img class="eployment-cards__img" src="./images/img1.jpg" alt="HTML верстка" width="370">
+                        <img class="eployment-cards__img" srcset="./images/eployment/epl1@2x.jpg 2x" src="./images//eployment/epl1.jpg" alt="HTML верстка" width="370">
                         <p class="eployment-cards__text">Десктопні додатки</p>
                     </div>
                 </li>
                 <li>
                     <div class="eployment-cards">
-                        <img class="eployment-cards__img" src="./images/img2.jpg" alt="Создание приложений" width="370">
+                        <img class="eployment-cards__img" srcset="./images/eployment/epl2@2x.jpg 2x" src="./images//eployment/epl2.jpg" alt="Создание приложений" width="370">
                         <p class="eployment-cards__text">Мобільні додатки</p>
                          
                     </div>
                 </li>
                 <li>
                     <div class="eployment-cards">
-                        <img class="eployment-cards__img" src="./images/img3.jpg" alt="Графическое оформление" width="370">
+                        <img class="eployment-cards__img" srcset="./images/eployment/epl3@2x.jpg 2x" src="./images//eployment/epl3.jpg" alt="Графическое оформление" width="370">
                         <p class="eployment-cards__text">Дизайнерські рішення</p>
                     </div>
                 </li>
@@ -198,7 +198,12 @@
                 <ul class="cards list">
                     <li class="cards__item">
                         <div>
-                            <img class="cards__img" src="./images/work1.jpg" alt="Фото работника" width="270">
+                            <picture>
+                                <source srcset="./images/ourteam/card1-270.jpg 1x, ./images/ourteam/card1-270@2x.jpg 2x" media="(min-width: 1200px)">
+                                <source srcset="./images/ourteam/card1-354.jpg 1x, ./images/ourteam/card1-354@2x.jpg 2x" media="(min-width: 768px)">
+                                <source srcset="./images/ourteam/card1-450.jpg 1x, ./images/ourteam/card1-450@2x.jpg 2x" media="(max-width: 767px)">
+                                <img class="cards__img" src="./images/ourteam/card1-450.jpg" alt="Фото работника" width="270">
+                            </picture>
                             <h3 class="cards__name">Игорь Демьяненко</h3>
                             <p class="cards__qual">Product Designer</p>
                             <div>
@@ -237,7 +242,12 @@
                     </li>
                     <li class="cards__item">
                         <div>
-                            <img class="cards__img" src="./images/work2.jpg" alt="Фото работника" width="270">
+                            <picture>
+                                <source srcset="./images/ourteam/card2-270.jpg 1x, ./images/ourteam/card2-270@2x.jpg 2x" media="(min-width: 1200px)">
+                                <source srcset="./images/ourteam/card2-354.jpg 1x, ./images/ourteam/card2-354@2x.jpg 2x" media="(min-width: 768px)">
+                                <source srcset="./images/ourteam/card2-450.jpg 1x, ./images/ourteam/card2-450@2x.jpg 2x" media="(max-width: 767px)">
+                                <img class="cards__img" src="./images/ourteam/card2-450.jpg" alt="Фото работника" width="270">
+                            </picture>
                             <h3 class="cards__name">Ольга Репина</h3>
                             <p class="cards__qual">Frontend Developer</p>
                             <div>
@@ -276,7 +286,13 @@
                     </li>
                     <li class="cards__item">
                         <div>
-                            <img class="cards__img" src="./images/work3.jpg" alt="Фото работника" width="270">
+                            <picture>
+                                <source srcset="./images/ourteam/card3-270.jpg 1x, ./images/ourteam/card3-270@2x.jpg 2x" media="(min-width: 1200px)">
+                                <source srcset="./images/ourteam/card3-354.jpg 1x, ./images/ourteam/card3-354@2x.jpg 2x" media="(min-width: 768px)">
+                                <source srcset="./images/ourteam/card3-450.jpg 1x, ./images/ourteam/card3-450@2x.jpg 2x" media="(max-width: 767px)">
+                                <img class="cards__img" src="./images/ourteam/card3-450" alt="Фото работника" width="270">
+                            </picture>
+                            
                             <h3 class="cards__name">Николай Тарасов</h3>
                             <p class="cards__qual">Marketing</p>
                             <div>
@@ -311,10 +327,15 @@
                                 </ul>
                             </div>
                         </div>
-                                            </li>
+                    </li>
                     <li class="cards__item">
                         <div>
-                            <img class="cards__img" src="./images/work4.jpg" alt="Фото работника" width="270">
+                            <picture>
+                                <source srcset="./images/ourteam/card4-270.jpg 1x, ./images/ourteam/card4-270@2x.jpg 2x" media="(min-width: 1200px)">
+                                <source srcset="./images/ourteam/card4-354.jpg 1x, ./images/ourteam/card4-354@2x.jpg 2x" media="(min-width: 768px)">
+                                <source srcset="./images/ourteam/card4-450.jpg 1x, ./images/ourteam/card4-450@2x.jpg 2x" media="(max-width: 767px)">
+                                <img class="cards__img" src="./images/ourteam/card4-450.jpg" alt="Фото работника" width="270">
+                            </picture>
                             <h3 class="cards__name">Михаил Ермаков</h3>
                             <p class="cards__qual">UI Designer</p>
                             <div>
